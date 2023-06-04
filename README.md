@@ -13,7 +13,7 @@ Use the `ProgressBar.setProgressValue(int value)` method to set the current load
 ## Setting Progress state
 Use the `ProgressBar.setProgressState(ProgressState state)` method to set the boot state. The `enum ProgressState` is used for configuration.
 
-### Вот его виды:
+### Here are its types:
 - `NO_PROGRESS` - Disables the download.
 - `NORMAL` - Enables standard loading via percentages.
 - `PAUSE` - Changes the color of the tray status to yellow, indicates a pause.
