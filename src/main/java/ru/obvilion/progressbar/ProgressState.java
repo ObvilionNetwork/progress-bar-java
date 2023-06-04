@@ -10,7 +10,7 @@ public enum ProgressState {
 
     private final int value;
 
-    private ProgressState(int i) {
+    ProgressState(int i) {
         value = i;
     }
 
