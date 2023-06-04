@@ -8,14 +8,14 @@ For the library to work, you need to copy one of the necessary compiled native f
 After that, load the library `ProgressBar.loadLib(File file)` and specify JavaFX/JFrame/LWJGL/LibGDX and other window name: `ProgressBar.setWindowName(String name)`.
 
 ## Setting Progress value
-Используйте метод `ProgressBar.setProgressValue(int value)` для установки текущего значения загрузки. Вы можете установить значение от 0 до 100 включительно.
+Use the `ProgressBar.setProgressValue(int value)` method to set the current load value. You can set the value from 0 to 100 inclusive.
 
 ## Setting Progress state
-Используйте метод `ProgressBar.setProgressState(ProgressState state)` для установки состояния загрузки. Для настройки используется `enum ProgressState`.
+Use the `ProgressBar.setProgressState(ProgressState state)` method to set the boot state. The `enum ProgressState` is used for configuration.
 
 ### Вот его виды:
-- `NO_PROGRESS` - Отключает загрузку.
-- `NORMAL` - Включает стандартную загрузку через проценты.
-- `PAUSE` - Меняет цвет статуса трея на желтный, обозначает паузу.
-- `STOP_ERROR` - Меняет цвет статуса трея на красный, обозначает ошибку.
-- `INDETERMINATE` - Отключает показ процентного значения загрузки, обозначает загрузку с неизвестным процентом загрузки.
+- `NO_PROGRESS` - Disables the download.
+- `NORMAL` - Enables standard loading via percentages.
+- `PAUSE` - Changes the color of the tray status to yellow, indicates a pause.
+- `STOP_ERROR` - Changes the color of the tray status to red, indicates an error.
+- `INDETERMINATE` - Disables the display of the download percentage value, denotes a download with an unknown download percentage.
